@@ -37,3 +37,6 @@ jobs:
       run: |
         echo "Cleaning up workspace..."
         # Add commands here to clean up any temporary files or resources
+
+- name: Run unit tests with nose
+  run: nosetests
